@@ -1,65 +1,65 @@
-// // // Chapter # 1
-// //  ************Alert****************
+// // Chapter # 1
+//  ************Alert****************
 
-// alert("Hello World !");
-// alert("Error ! Please Enter a Valid Password");
-// alert("Wellcome JS Land \n Happy Coding");
-// alert("Wellcome JS Land...");
-// alert("Happy Coding \nPrevent this page from creating additional dialogs");
-// console.log('alert box end');
-
-
-// // // Chapter # 2
-// //  ************Variable For String****************
+alert("Hello World !");
+alert("Error ! Please Enter a Valid Password");
+alert("Wellcome JS Land \n Happy Coding");
+alert("Wellcome JS Land...");
+alert("Happy Coding \nPrevent this page from creating additional dialogs");
+console.log('alert box end');
 
 
-// var userName;
-// var myName = "Aqib";
-// var message = "Hello World";
-// alert(message);
-// var studentName = "Mubbashir";
-// var studentAge = "15 Years Old";
-// var studentData = "Cetified Web Application Developer";
-
-// alert(studentName);
-// alert(studentAge);
-// alert(studentData);
-
-// var pizza = "Pizza \nPizz \nPiz \nPi \nP";
-// alert(pizza);
-
-// var email = "mraqib021@gmail.com";
-// alert("My email is : " + email);
-
-// var book = "A Smarter Way to learn JavaScript";
-// alert("I am trying to learn from the Book " + book);
-
-// var data = "Yah! I can write HTML Content through JavaScript";
-// document.write(data);
-
-// var symbol = "ஜ۩۞۩ஜ▬"
-// alert("-------------" + symbol + "------------")
-
-// // // Chapter # 3
-// //  ************Variable For Number****************
+// // Chapter # 2
+//  ************Variable For String****************
 
 
-// var age = 20;
-// alert("I am " + age + " Years Old");
+var userName;
+var myName = "Aqib";
+var message = "Hello World";
+alert(message);
+var studentName = "Mubbashir";
+var studentAge = "15 Years Old";
+var studentData = "Cetified Web Application Developer";
 
-// var visitor = 15;
-// alert("You have visited this site"+ visitor + " times");
+alert(studentName);
+alert(studentAge);
+alert(studentData);
 
-// var birthYear = 2003;
-// document.write("My birth year is :" + birthYear + `<br>` + 
-// "Data type of my declared variable is" + typeof(birthYear) + `<br>`
-// )
+var pizza = "Pizza \nPizz \nPiz \nPi \nP";
+alert(pizza);
 
-// var visitorName = "john Dae";
-// var product =  "5 T-shirts";
-// var store = "XYZ Clothing Store";
+var email = "mraqib021@gmail.com";
+alert("My email is : " + email);
 
-// document.write(visitorName + " Ordered "+ product + " On "+ store);
+var book = "A Smarter Way to learn JavaScript";
+alert("I am trying to learn from the Book " + book);
+
+var data = "Yah! I can write HTML Content through JavaScript";
+document.write(data);
+
+var symbol = "ஜ۩۞۩ஜ▬"
+alert("-------------" + symbol + "------------")
+
+// // Chapter # 3
+//  ************Variable For Number****************
+
+
+var age = 20;
+alert("I am " + age + " Years Old");
+
+var visitor = 15;
+alert("You have visited this site"+ visitor + " times");
+
+var birthYear = 2003;
+document.write("My birth year is :" + birthYear + `<br>` + 
+"Data type of my declared variable is" + typeof(birthYear) + `<br>`
+)
+
+var visitorName = "john Dae";
+var product =  "5 T-shirts";
+var store = "XYZ Clothing Store";
+
+document.write(visitorName + " Ordered "+ product + " On "+ store);
 
 // // // Chapter # 4
 // //  ************Variables Name Legal & Illegal****************
