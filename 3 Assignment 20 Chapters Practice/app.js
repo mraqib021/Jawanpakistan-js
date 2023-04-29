@@ -63,9 +63,14 @@
 
 // // // Chapter # 4
 // //  ************Variables Name Legal & Illegal****************
-// var
 
 
+var $Name = "Legal";
+var camelCase = "Legal";
+var camel_Case = "Legal";
+// var &5fsaf = "Illegal";
+// var  )@#$% = "Illegal";
+var camelCase21 = "Legal"
 
 
 
