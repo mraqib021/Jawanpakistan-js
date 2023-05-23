@@ -124,8 +124,7 @@ var cha = Name.charAt(5);
 console.log(cha);
 
 // // Q No 14
-
-** Pending **
+//** Pending **
 
 // // Q No 15
 var x = "Characters";
