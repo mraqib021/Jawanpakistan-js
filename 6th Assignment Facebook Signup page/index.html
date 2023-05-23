@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="shortcut icon" href="img/fb_icon_325x325.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100 ">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="pt-5 ms-5 ps-5">
+                    <div class="m-5 ms-5 ps-5">
+                        <img src="img/logo.svg" width="300px" alt="">
+                        <h1 class="fs-3 fw-normal">Facebook helps you connect and share with the people in your life.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="p-2 ">
+
+                    <div>
+                        <h3>Sign Up</h3>
+                        <span>It's quick and easy.</span>
+                    </div>
+                    <div class="col-auto">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Firstname" id="Firstname"
+                                aria-label="Username">
+                            <span class="input-group-text"> </span>
+                            <input type="text" class="form-control" placeholder="Surname" id="Surname"
+                                aria-label="Server">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email"
+                                placeholder="Mobile Number or Email address" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="password" placeholder="New Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="date">Date of Birth</label>
+                            <input type="date" id="date" itemid="dob" class="form-control">
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radio1" value="Male">
+                            <label class="form-check-label" for="inlineRadio1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radio2" value="Female">
+                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="radio3" value="Custom">
+                            <label class="form-check-label" for="inlineRadio3">Custom</label>
+                        </div>
+                        <div>
+
+                            <span class="fs-6">People who use our service may have uploaded your contact information
+                                to
+                                Facebook. Learn more.
+                                <br>
+                                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You
+                                may
+                                receive SMS notifications from us and can opt out at any time.</span>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary px-5" style="background-color: #00a724;"
+                                onclick="register()">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
