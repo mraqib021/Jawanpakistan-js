@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conatin">
+        <div class="container">
+            <label class="switch">
+                <input type="checkbox" id="check">
+                <span class="slider round"></span>
+            </label>
+            <div class="displaybox">
+                <input disabled type="text" placeholder="0" id="display">
+            </div>
+            <div class="buttonbox">
+                <button class="yellow" onclick="remove()">Ac</button>
+                <button class="yellow" onclick="GetValue('+')">+/-</button>
+                <button class="yellow" onclick="GetValue('%')">%</button>
+                <button class="orange" onclick="GetValue('/')">/</button>
+                <button class="grey" onclick="GetValue(7)">7</button>
+                <button class="grey" onclick="GetValue(8)">8</button>
+                <button class="grey" onclick="GetValue(9)">9</button>
+                <button class="orange" onclick="GetValue('*')">X</button>
+                <button class="grey" onclick="GetValue(4)">4</button>
+                <button class="grey" onclick="GetValue(5)">5</button>
+                <button class="grey" onclick="GetValue(6)">6</button>
+                <button class="orange" onclick="GetValue('-')">-</button>
+                <button class="grey" onclick="GetValue(1)">1</button>
+                <button class="grey" onclick="GetValue(2)">2</button>
+                <button class="grey" onclick="GetValue(3)">3</button>
+                <button class="orange" onclick="GetValue('+')">+</button>
+                <button class="grey" onclick="GetValue(s)" style="width: 140px;">0</button>
+                <button class="grey" onclick="GetValue('.')">.</button>
+                <button class="orange" onclick="Calulate()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
