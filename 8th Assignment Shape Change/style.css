@@ -1,0 +1,81 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contain {
+  height: 500px;
+  width: 100%;
+}
+.box {
+  height: 350px;
+  width: 350px;
+  background-color: coral;
+  transition: 0.9s;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  background-color: coral;
+  transition: 0.9s;
+  border-radius: 100%;
+}
+.square {
+  height: 350px;
+  width: 350px;
+  background-color: coral;
+  transition: 0.9s;
+}
+.oval {
+  height: 450px;
+  width: 350px;
+  background-color: coral;
+  transition: 0.9s;
+  border-radius: 100%;
+}
+.rectangle {
+  height: 250px;
+  width: 500px;
+  background-color: coral;
+  transition: 0.9s;
+}
+.heart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: coral;
+  margin-top: 90px;
+  transition: 0.9s;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: coral;
+}
+.heart:before {
+  bottom: 0px;
+  left: -100px;
+}
+.heart:after {
+  top: -100px;
+  right: 0px;
+}
+button{
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    background-color: lightsalmon;
+    color: #fff;
+}

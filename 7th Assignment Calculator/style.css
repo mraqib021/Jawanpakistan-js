@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 :root,
-:root.light {
+:root.ligth {
   --button1: #ffd30e;
   --button2: #cbcbcb;
   --button3: #ff8e03;
@@ -21,7 +21,7 @@
   --button1: #ffd30e;
   --black: #000000;
   --white: #ffffff;
-  --shadow: 0.5px 0.5px 5px rgb(211, 211, 211);
+  --shadow: 0.5px 0.5px 6px rgb(211, 211, 211);
 }
 .conatin {
   background-color: #ffd405;
@@ -72,15 +72,15 @@ button {
   box-shadow: var(--shadow);
   border-radius: 50px;
 }
+.yellow {
+  background-color: var(--button1);
+  color: var(--black);
+}
 .grey {
   background-color: var(--button2);
 }
 .orange {
   background-color: var(--button3);
-}
-.yellow {
-  background-color: var(--button1);
-  color: var(--black);
 }
 /* The switch - the box around the slider */
 .switch {
