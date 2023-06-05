@@ -1,36 +1,3 @@
-// var inp_val = document.getElementById("inp_val");
-// var ul_list = document.getElementById("ul_list");
-// var add = () => {
-//   var li = document.createElement("li");
-//   var li_node = document.createTextNode(inp_val.value);
-//   li.appendChild(li_node);
-//   var edit_btn = document.createElement("button");
-//   // var edit_node = document.createTextNode("");
-//   // edit_btn.appendChild(edit_node);
-//   edit_btn.setAttribute("onclick", "edit(this)");
-//   edit_btn.id = "edit";
-//   edit_btn.className = "fa-solid fa-pen";
-//   var delete_btn = document.createElement("button");
-//   // var delete_node = document.createTextNode("");
-//   // delete_btn.appendChild(delete_node);
-//   delete_btn.className = "fa-solid fa-trash";
-//   delete_btn.setAttribute("onclick", "deleted(this)");
-//   li.appendChild(edit_btn);
-//   li.appendChild(delete_btn);
-//   ul_list.appendChild(li);
-//   console.log(li);
-// };
-
-// var edit = (msg) => {
-//   var x = prompt("Enter Something...");
-//   var a = msg.parentElement.firstChild.value;
-//   a = x;
-//   console.log(a, x, msg.parentElement.firstChild);
-// };
-// var deleted = (msgs) => {
-//   msgs.parentElement.remove();
-// };
-
 var add = () => {
   if (inp_val.value == "" || inp_val.value == " ") {
     alert("Please Insert Todoo");

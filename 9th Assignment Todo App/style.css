@@ -12,11 +12,17 @@ body,
   display: flex;
   align-items: center;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 .container {
   flex-direction: column;
-  background-color: #9BABB8;
+  background-color: #9babb8;
   height: 500px;
   padding: 50px 80px;
+  overflow: scroll;
+  scrollbar-width: 5px;
 }
 .inputbox > input {
   outline: none;
@@ -24,13 +30,11 @@ body,
   width: 265px;
   padding: 10px 20px;
 }
-ul {
-}
 li {
   padding: 10px 20px;
   margin: 2px;
   width: 350px;
-  background-color: #EEE3CB;
+  background-color: #eee3cb;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -40,8 +44,8 @@ button {
   padding: 10px 20px;
   outline: none;
   background-color: #fff;
-  border: 1px solid #D7C0AE;
-  color: #967E76;
+  border: 1px solid #d7c0ae;
+  color: #967e76;
   cursor: pointer;
 }
 input {
@@ -58,6 +62,6 @@ input {
   justify-content: space-between;
 }
 #modify_val {
-  background-color: #EEE3CB;
+  background-color: #eee3cb;
   color: #000;
 }
